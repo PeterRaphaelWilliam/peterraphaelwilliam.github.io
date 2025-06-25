@@ -4,9 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Peter Raphael William</title>
-  <meta name="description" content="Official personal website of Peter Raphael William — aspiring electronic engineer and visionary dreamer.">
-<meta name="keywords" content="Peter Raphael William, PCM, DCT Mvumi, future engineer, Elon Musk, Tanzania, space tourism">
-<meta name="author" content="Peter Raphael William">
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -44,6 +41,24 @@
       border-radius: 50%;
       display: block;
       margin: 0 auto 20px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .gallery-item {
+      text-align: center;
+    }
+    .gallery-item img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+    .caption {
+      margin-top: 8px;
+      font-style: italic;
+      color: #555;
     }
     form input, form textarea {
       width: 100%;
@@ -101,6 +116,36 @@
     </div>
 
     <div class="section">
+      <h2>Photo Gallery</h2>
+      <div class="gallery">
+        <div class="gallery-item">
+          <img src="PXL_20250405_092456501.NIGHT.jpg" alt="The unforgettable day for me and Dorcas">
+          <p class="caption">The unforgettable day for me and Dorcas</p>
+        </div>
+        <div class="gallery-item">
+          <img src="PSolver.DSM.jpg" alt="You are my Angel Dorcas">
+          <p class="caption">You are my Angel Dorcas</p>
+        </div>
+        <div class="gallery-item">
+          <img src="IMG20250621152224.jpg" alt="All this is for Dorcas">
+          <p class="caption">All this is for Dorcas</p>
+        </div>
+        <div class="gallery-item">
+          <img src="PXL_20250405_151041115_PORTRAIT.jpg" alt="I wish one day I could hold your hand">
+          <p class="caption">I wish one day I could hold your hand</p>
+        </div>
+        <div class="gallery-item">
+          <img src="IMG_20180318_081932.jpg" alt="Long way back in standard 6">
+          <p class="caption">Long way back in standard 6</p>
+        </div>
+        <div class="gallery-item">
+          <img src="IMG_20180318_082002.jpg" alt="The wonderful day for me and Dorcas">
+          <p class="caption">The wonderful day for me and Dorcas</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
       <h2>Social Media</h2>
       <p>
         TikTok: <a href="https://www.tiktok.com/@psolver.dsm05" target="_blank">@psolver.dsm05</a><br>
@@ -119,7 +164,6 @@
         <button type="submit">Send</button>
       </form>
     </div>
-
   </div>
 </body>
 </html>
